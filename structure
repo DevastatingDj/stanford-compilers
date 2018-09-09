@@ -15,4 +15,4 @@ semantic analysis to catch inconsistencies.
 	-Power
 	-Network
 	-Database
-* Code Generation - Produces assembly code(usually) from a high level program
+* Code Generation - Produces (usually)assembly code from a high level program
