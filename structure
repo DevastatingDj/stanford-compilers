@@ -1,0 +1,18 @@
+* Lexical Analysis - It divides program text into "words" or "tokens"
+
+	if x == y then z=1; else z=2;
+
+if, " ", x, ==,=,;,z,1,else - These are all tokens(including blank spaces)
+
+* Parsing - Diagramming Sentences (The diagram is a tree)
+
+* Semantic Analysis - Understanding meaning. Compilers perform limited
+semantic analysis to catch inconsistencies.
+
+* Optimization - Automatically modify programs so that they - 
+	-Run faster
+	-Use less memory
+	-Power
+	-Network
+	-Database
+* Code Generation - Produces assembly code(usually) from a high level program
