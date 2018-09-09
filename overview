@@ -1,0 +1,22 @@
+Classroom Object Oriented Language -> COOL
+
+Designed to be implementable in a short time
+
+In this course we will be building a complete compiler in 5 Programming Assn.
+
+Cool -> MIPS assembly language
+* Mips is real instruction set. It was for a machine that was designed in the
+1980's. There is simulator for MIPS that runs on just about any kind of
+hardware
+
+5 Prgramming Assignments
+* Write a COOL program (which will itself be an interpreter)
+* Lexical Analysis
+* Parsing
+* Semantic Analysis
+* Code generation
+
+These four phases will be plug compatible(meaning you can plug your component
+into a reference compiler to check)
+
+
