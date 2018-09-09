@@ -1,0 +1,18 @@
+Intro to Compilers
+
+Compilers vs Interpreters
+
+Compilers – Compiler takes the program converts it into an executable (bytecode) which can be run on different data to produce output.
+
+Interpreters – Interpreters takes the program and the data(input) and gives the output. Does not do any preprocessing on the program before it executes it on the input.
+
+Moder Compilers preserve the outline of FORTRAN I
+
+It consists of 5 phases:
+
+* Lexical Analysis
+* Parsing
+* Semantic Analysis
+* Optimization
+* Code Generation
+
