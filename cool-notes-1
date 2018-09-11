@@ -31,7 +31,7 @@ Examples:
 class Main{
 
 	i: IO <- new IO;
-	main():Int{ { i.out_string("Hello World\n"); 1; } }
+	main():Int{ { i.out_string("Hello World\n"); 1; } };
 
 };
 
@@ -39,7 +39,7 @@ class Main{
 class Main{
 
 	i:IO <- new IO;
-	main():IO { i.out_string("Hello World\n") }
+	main():IO { i.out_string("Hello World\n") };
 
 };
 
@@ -47,16 +47,16 @@ class Main{
 class Main{
 
         i:IO <- new IO;
-        main():Object { i.out_string("Hello World\n") }
+        main():Object { i.out_string("Hello World\n") };
 
 };
 
 
 class Main {
-	main():Object { (new IO).out_string("Hello World\n") }
+	main():Object { (new IO).out_string("Hello World\n") };
 };
 
 
 class Main inherits IO{
-	main():Object { self.out_string("Hello World!\n") }
+	main():Object { self.out_string("Hello World!\n") };
 };
