@@ -1,0 +1,62 @@
+* Every cool program has to have a class main. Every class declaration must
+terminated by a semicolon. So a program consist of a list of class declaration
+
+* main() method of the Main class must always exist. This is the method that
+will run to start the program. This method must take no arguments. Methods
+are also terminated by a semicolon 
+
+* Cool methods must declare a return type.
+
+Example:
+
+class Main {
+
+	main():Int { 1 };
+
+};
+
+Note - This is not going to produce any output
+
+* To produce an output we need to declare an attribute of the class IO
+and use the method i.out_string(). In the next example we will print a
+statement and put our 1 in a statement block. Statement block consist of a 
+sequence of expression separated by semicolons. And the value of the block is
+the value of the last expression. 
+
+* Statement block or an expression block has to be included in its own set of
+ curly braces.
+
+Examples:
+
+class Main{
+
+	i: IO <- new IO;
+	main():Int{ { i.out_string("Hello World\n"); 1; } }
+
+};
+
+
+class Main{
+
+	i:IO <- new IO;
+	main():IO { i.out_string("Hello World\n") }
+
+};
+
+
+class Main{
+
+        i:IO <- new IO;
+        main():Object { i.out_string("Hello World\n") }
+
+};
+
+
+class Main {
+	main():Object { (new IO).out_string("Hello World\n") }
+};
+
+
+class Main inherits IO{
+	main():Object { self.out_string("Hello World!\n") }
+};
