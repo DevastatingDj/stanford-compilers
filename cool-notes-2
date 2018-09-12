@@ -1,0 +1,38 @@
+* There is a library written in COOL that does conversions between
+string and integers "A2I"
+
+class Main{
+
+        i:IO <- new IO;
+        main():IO { i.out_string("Hello World\n") }
+
+};
+
+
+Example:
+
+class Main inherits A2I{
+	main():Object {
+		 (new IO).out_string(i2a(fact(a2i((new IO).in_string()))).concat("\n"))
+	};
+
+	niceFunciton(i:Int) : Int{
+		i+1
+	};
+	
+	fact(i:Int) : Int{
+		if(i=0) then 1 else 1*fact(i-1) fi
+	};
+
+	factIteratively(i:Int) : Int{
+		let fact: Int <- 1 in {
+			while(not (i=0)) loop
+			{
+				fact <- fact*i;
+				i <- i-1;
+			}
+			pool;
+			fact;
+		}
+	};
+}; 
